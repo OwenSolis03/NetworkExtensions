@@ -62,7 +62,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\Program Files\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\References\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -236,7 +236,7 @@
     <Compile Include="Roads\SmallRoads\BasicRoadPntMdn\BasicRoadPntMdnBuilder.Texturing.cs" />
     <Compile Include="Roads\TinyRoads\AlleyCulDeSac\AlleyCulDeSacBuilder.cs" />
     <Compile Include="Roads\TinyRoads\Oneway1LBicycle\Oneway1LBicycleBuilder.cs" />
-    <Compile Include="Roads\TinyRoads\Oneway1LParking\Oneway1LParkingBuilder.cs" />
+    <Compile Include="Roads\TinyRoads\Oneway1LParking\OneWay1LParkingBuilder.cs" />
     <Compile Include="Roads\TinyRoads\Plain2L\PlainStreetBuilder.cs" />
     <Compile Include="Roads\TinyRoads\Plain2L\PlainStreetBuilder.Texturing.cs" />
     <Compile Include="Roads\SmallHeavyRoads\AsymRoadL1R2\AsymRoadL1R2Builder.Texturing.cs" />
@@ -284,7 +284,7 @@
     <Compile Include="RExModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roads\Highways\Highway6L\Highway6LBuilder.cs" />
-    <Compile Include="Roads\TinyRoads\Oneway1L\Oneway1LBuilder.cs" />
+    <Compile Include="Roads\TinyRoads\OneWay1L\OneWAy1LBuilder.cs" />
     <Compile Include="SomeRoads\PlanningRoadLargeBuilder.cs" />
     <Compile Include="SomeRoads\PlanningRoadSmallBuilder.cs" />
     <Compile Include="ToolModule.cs" />
@@ -3289,37 +3289,37 @@
     <Content Include="Roads\TinyRoads\Oneway1LParking\thumbnails.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\thumbnails.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\thumbnails.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\infotooltip.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\infotooltip.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\Textures\Ground_LOD__XYSMap.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\Textures\Ground_LOD__XYSMap.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\Textures\Ground_Node_LOD__APRMap.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\Textures\Ground_Node_LOD__APRMap.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\Textures\Ground_Node_LOD__MainTex.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\Textures\Ground_Node_LOD__MainTex.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\Textures\Ground_Node__APRMap.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\Textures\Ground_Node__APRMap.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\Textures\Ground_Node__MainTex.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\Textures\Ground_Node__MainTex.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\Textures\Ground_Segment_LOD__APRMap.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\Textures\Ground_Segment_LOD__APRMap.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\Textures\Ground_Segment_LOD__MainTex.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\Textures\Ground_Segment_LOD__MainTex.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\Textures\Ground_Segment__APRMap.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\Textures\Ground_Segment__APRMap.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Roads\TinyRoads\Oneway1L\Textures\Ground_Segment__MainTex.png">
+    <Content Include="Roads\TinyRoads\OneWay1L\Textures\Ground_Segment__MainTex.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Roads\TinyRoads\Plain2L\infotooltip.png">

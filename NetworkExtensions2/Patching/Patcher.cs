@@ -5,7 +5,7 @@ namespace NetworkExtensions2.Patching
 {
     public static class Patcher
     {
-        private const string HarmonyId = "boformer.Harmony2Example";
+        public const string HarmonyId = "andreharv.CSL.NetworkExtensions2";
 
         private static bool patched = false;
 
@@ -19,7 +19,7 @@ namespace NetworkExtensions2.Patching
 
             // Apply your patches here!
             // Harmony.DEBUG = true;
-            var harmony = new Harmony("andreharv.CSL.NetworkExtensions2");
+            var harmony = new Harmony(HarmonyId);
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
